@@ -27,7 +27,7 @@ app.use(cartsRouter);
 app.use(frontRouter);
 app.use(articlesRouter);
 
-//localhost:3000
-app.listen('hannalvilms.github.io/ecom/', () => {
+//host
+app.listen('https://hardcore-elion-da3148.netlify.app/', () => {
     console.log('Listening');
 });
